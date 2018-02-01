@@ -1,0 +1,119 @@
+.center {
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+#headers {
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 80px;
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 25px;
+}
+
+h1, h3 {
+  margin: 10px auto;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 220px;
+}
+
+div #input-parent {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+form {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 25%;
+}
+
+#player-input {
+  height: 170px;
+  border-radius: 170px;
+  text-align: center;
+  border: 1px solid space-grey;
+  /* position: fixed; */
+}
+
+#submit {
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 130px;
+  left: 410px;
+}
+
+.guess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.guess li {
+  font-size: 50px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 40px 60px;
+  margin: 50px 5px;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+#signature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer .img-fluid {
+  height:auto;
+  width: 90%;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+}
+/* #footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
